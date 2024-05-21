@@ -26,6 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
             case '-':
             case '*':
             case '/':
+            case '%':
                 handleOperator(value);
                 break;
             case '=':
@@ -76,6 +77,8 @@ document.addEventListener("DOMContentLoaded", function () {
             return firstOperand * secondOperand;
         } else if (operator === '/') {
             return firstOperand / secondOperand;
+        } else if (operator === '%') {
+            return firstOperand % secondOperand;
         }
 
         return secondOperand;
