@@ -79,6 +79,14 @@ button:hover {
     background-color: #a5a5a5;
 }
 
+#modulo{
+    background-color: #a5a5a5;
+}
+
+#modulo:hover{
+    background-color: #8c8c8c;
+}
+
 .delete:hover {
     background-color: #8c8c8c;
 }
