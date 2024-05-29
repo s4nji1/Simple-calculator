@@ -60,7 +60,7 @@ button:hover {
 
 .equal-sign {
     background-color: #856088;
-    grid-column: span 2;
+    grid-column: span 1;
 }
 
 .equal-sign:hover {
@@ -76,13 +76,13 @@ button:hover {
 }
 
 .delete {
-    background-color: #ff7f50;
+    background-color: #a5a5a5;
 }
 
 .delete:hover {
-    background-color: #ff4500;
+    background-color: #8c8c8c;
 }
 
 .zero {
-    grid-column: span 1;
+    grid-column: span 2;
 }
