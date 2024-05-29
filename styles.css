@@ -77,7 +77,6 @@ button:hover {
 
 .delete {
     background-color: #ff7f50;
-    color: whitesmoke;
 }
 
 .delete:hover {
@@ -85,5 +84,5 @@ button:hover {
 }
 
 .zero {
-    grid-column: span 2;
+    grid-column: span 1;
 }
