@@ -38,6 +38,9 @@ document.addEventListener("DOMContentLoaded", function () {
             case 'all-clear':
                 resetCalculator();
                 break;
+            case 'delete':
+                deleteLastDigit();
+                break;
             default:
                 if (Number.isInteger(parseFloat(value))) {
                     inputDigit(value);
@@ -125,5 +128,12 @@ document.addEventListener("DOMContentLoaded", function () {
         calculator.firstOperand = null;
         calculator.waitingForSecondOperand = false;
         calculator.operator = null;
+    }
+
+    function deleteLastDigit() {
+        calculator.displayValue = calculator.displayValue.slice(0, -1);
+        if (calculator.displayValue === '') {
+            calculator.displayValue = '0';
+        }
     }
 });
